@@ -2,10 +2,9 @@
     border: 3px ;
 }
 body{
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
-    margin: 30px;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');    margin: 30px;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: Poppins,  Actor, Adamina;
     background-color: white;
 }
 #header{
@@ -25,11 +24,11 @@ nav>.logo>ul>li{
     padding-left: 150px;
     color: white;
 }
-nav>.logo>ul>li>sub{
-    background-color: yellow;
+.sub{
+    background-color:yellow;
 }
-nav>.logo>ul>li>key{
-    background-color: white;
+.log-key{
+    background-color:black;
 }
 #header>.top>h2{
     display: block;
@@ -48,9 +47,14 @@ nav>.logo>ul>li>key{
     display:flex;
     height: 700px;
 }
-#hustle>.motiv{
+#hustle >.motiv{
     padding-left:800px ;
-    padding-bottom: 0;
+    margin-top: -150px;
+}
+#hustle>.motiv>h4>.learn{
+  background-color: black;
+  color:yellow;
+  width:20%;
 }
 #movers{
     display: flex;
@@ -115,7 +119,9 @@ nav>.logo>ul>li>key{
   }
   
   .footer_nav {
-    display: flex;
+    border: 5px #14130c;
+    margin-left:500px;
+    display:flex;
   }
   
   .footer_nav > * {
