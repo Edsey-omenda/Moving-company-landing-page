@@ -27,12 +27,6 @@ body{
 nav>.logo>ul>li{
     margin: bottom 100px;
 }
-.sub{
-    background-color:yellow;
-}
-.log-key{
-    background-color:black;
-}
 #header>.top>h2{
     display: block;
     text-align: left;
@@ -49,12 +43,24 @@ nav>.logo>ul>li{
 .worker{
     display:flex;
 }
-button{
+#one{
   background-color: black;
   color:yellow;
   height: 50px;
   width:50%;
   border-top-right-radius: 0.6rem;
+}
+#three{
+  background-color: yellow;
+  color:black;
+  width:100%;
+  border-top-right-radius: 0.1rem;
+}
+#four{
+  background-color: black;
+  color:yellow;
+  width:100%;
+  border-top-right-radius: 0.1rem;
 }
 .motiv{
     padding-left: 200px;
