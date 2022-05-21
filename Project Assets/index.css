@@ -46,6 +46,13 @@ nav>.logo>ul>li{
 .worker{
     display:flex;
 }
+button{
+  background-color: black;
+  color:yellow;
+  height: 50px;
+  width:50%;
+  border-top-right-radius: 0.6rem;
+}
 .motiv{
     padding-left: 200px;
     padding-top: 100px;
