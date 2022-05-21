@@ -46,9 +46,9 @@ nav>.logo>ul>li{
 .worker{
     display:flex;
 }
-#hustle >.motiv{
-    padding-left:800px ;
-    margin-top: -150px;
+.motiv{
+    padding-left: 200px;
+    padding-top: 100px;
 }
 #hustle>.motiv>h4>.learn{
   background-color: black;
@@ -135,3 +135,12 @@ nav>.logo>ul>li{
     column-count: 1;
     column-gap: 2.25em;
   }
+  hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 50%;
+}
