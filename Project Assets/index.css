@@ -43,9 +43,8 @@ nav>.logo>ul>li{
     padding-top: 30px;
     padding-left: 50px;
 }
-#hustle>.chair{
+.worker{
     display:flex;
-    height: 700px;
 }
 #hustle >.motiv{
     padding-left:800px ;
