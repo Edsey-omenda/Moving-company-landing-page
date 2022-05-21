@@ -26,17 +26,12 @@ nav>.logo>ul>li{
     padding-left: 150px;
     color: white;
 }
-nav_2> .modern> h1, p{
-    color:white;
+.nav-mod{
+  display: flex;
+  color:white;
 }
-nav_2>.value>ul>li{
-    display: inline-block;
-    padding-left: 1200px;
-    color:white;
-}
-p4{
-    padding-left: 1300px;
-    color: white;
+.value{
+  padding-left: 800px;
 }
 #page-form>.form{
     float:right;
